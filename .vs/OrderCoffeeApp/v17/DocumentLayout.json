@@ -1,0 +1,233 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DevC_C\u002B\u002B\\VS_2022\\OrderCoffeeApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46BF4998-BD8B-4073-9D00-1ADEADA4232C}|OrderCoffeeApp\\OrderCoffeeApp.csproj|d:\\devc_c\u002B\u002B\\vs_2022\\ordercoffeeapp\\ordercoffeeapp\\views\\menupage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46BF4998-BD8B-4073-9D00-1ADEADA4232C}|OrderCoffeeApp\\OrderCoffeeApp.csproj|solutionrelative:ordercoffeeapp\\views\\menupage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46BF4998-BD8B-4073-9D00-1ADEADA4232C}|OrderCoffeeApp\\OrderCoffeeApp.csproj|d:\\devc_c\u002B\u002B\\vs_2022\\ordercoffeeapp\\ordercoffeeapp\\views\\menupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{46BF4998-BD8B-4073-9D00-1ADEADA4232C}|OrderCoffeeApp\\OrderCoffeeApp.csproj|solutionrelative:ordercoffeeapp\\views\\menupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46BF4998-BD8B-4073-9D00-1ADEADA4232C}|OrderCoffeeApp\\OrderCoffeeApp.csproj|d:\\devc_c\u002B\u002B\\vs_2022\\ordercoffeeapp\\ordercoffeeapp\\stringtovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46BF4998-BD8B-4073-9D00-1ADEADA4232C}|OrderCoffeeApp\\OrderCoffeeApp.csproj|solutionrelative:ordercoffeeapp\\stringtovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46BF4998-BD8B-4073-9D00-1ADEADA4232C}|OrderCoffeeApp\\OrderCoffeeApp.csproj|d:\\devc_c\u002B\u002B\\vs_2022\\ordercoffeeapp\\ordercoffeeapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46BF4998-BD8B-4073-9D00-1ADEADA4232C}|OrderCoffeeApp\\OrderCoffeeApp.csproj|solutionrelative:ordercoffeeapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46BF4998-BD8B-4073-9D00-1ADEADA4232C}|OrderCoffeeApp\\OrderCoffeeApp.csproj|d:\\devc_c\u002B\u002B\\vs_2022\\ordercoffeeapp\\ordercoffeeapp\\views\\cartpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{46BF4998-BD8B-4073-9D00-1ADEADA4232C}|OrderCoffeeApp\\OrderCoffeeApp.csproj|solutionrelative:ordercoffeeapp\\views\\cartpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46BF4998-BD8B-4073-9D00-1ADEADA4232C}|OrderCoffeeApp\\OrderCoffeeApp.csproj|d:\\devc_c\u002B\u002B\\vs_2022\\ordercoffeeapp\\ordercoffeeapp\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46BF4998-BD8B-4073-9D00-1ADEADA4232C}|OrderCoffeeApp\\OrderCoffeeApp.csproj|solutionrelative:ordercoffeeapp\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46BF4998-BD8B-4073-9D00-1ADEADA4232C}|OrderCoffeeApp\\OrderCoffeeApp.csproj|d:\\devc_c\u002B\u002B\\vs_2022\\ordercoffeeapp\\ordercoffeeapp\\drinkitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46BF4998-BD8B-4073-9D00-1ADEADA4232C}|OrderCoffeeApp\\OrderCoffeeApp.csproj|solutionrelative:ordercoffeeapp\\drinkitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46BF4998-BD8B-4073-9D00-1ADEADA4232C}|OrderCoffeeApp\\OrderCoffeeApp.csproj|d:\\devc_c\u002B\u002B\\vs_2022\\ordercoffeeapp\\ordercoffeeapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{46BF4998-BD8B-4073-9D00-1ADEADA4232C}|OrderCoffeeApp\\OrderCoffeeApp.csproj|solutionrelative:ordercoffeeapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46BF4998-BD8B-4073-9D00-1ADEADA4232C}|OrderCoffeeApp\\OrderCoffeeApp.csproj|d:\\devc_c\u002B\u002B\\vs_2022\\ordercoffeeapp\\ordercoffeeapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{46BF4998-BD8B-4073-9D00-1ADEADA4232C}|OrderCoffeeApp\\OrderCoffeeApp.csproj|solutionrelative:ordercoffeeapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46BF4998-BD8B-4073-9D00-1ADEADA4232C}|OrderCoffeeApp\\OrderCoffeeApp.csproj|d:\\devc_c\u002B\u002B\\vs_2022\\ordercoffeeapp\\ordercoffeeapp\\views\\cartpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46BF4998-BD8B-4073-9D00-1ADEADA4232C}|OrderCoffeeApp\\OrderCoffeeApp.csproj|solutionrelative:ordercoffeeapp\\views\\cartpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46BF4998-BD8B-4073-9D00-1ADEADA4232C}|OrderCoffeeApp\\OrderCoffeeApp.csproj|d:\\devc_c\u002B\u002B\\vs_2022\\ordercoffeeapp\\ordercoffeeapp\\appdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46BF4998-BD8B-4073-9D00-1ADEADA4232C}|OrderCoffeeApp\\OrderCoffeeApp.csproj|solutionrelative:ordercoffeeapp\\appdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46BF4998-BD8B-4073-9D00-1ADEADA4232C}|OrderCoffeeApp\\OrderCoffeeApp.csproj|d:\\devc_c\u002B\u002B\\vs_2022\\ordercoffeeapp\\ordercoffeeapp\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46BF4998-BD8B-4073-9D00-1ADEADA4232C}|OrderCoffeeApp\\OrderCoffeeApp.csproj|solutionrelative:ordercoffeeapp\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46BF4998-BD8B-4073-9D00-1ADEADA4232C}|OrderCoffeeApp\\OrderCoffeeApp.csproj|d:\\devc_c\u002B\u002B\\vs_2022\\ordercoffeeapp\\ordercoffeeapp\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{46BF4998-BD8B-4073-9D00-1ADEADA4232C}|OrderCoffeeApp\\OrderCoffeeApp.csproj|solutionrelative:ordercoffeeapp\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\DevC_C\u002B\u002B\\VS_2022\\OrderCoffeeApp\\OrderCoffeeApp\\Order.cs",
+              "RelativeDocumentMoniker": "OrderCoffeeApp\\Order.cs",
+              "ToolTip": "D:\\DevC_C\u002B\u002B\\VS_2022\\OrderCoffeeApp\\OrderCoffeeApp\\Order.cs",
+              "RelativeToolTip": "OrderCoffeeApp\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T15:14:44.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartPage.xaml",
+              "DocumentMoniker": "D:\\DevC_C\u002B\u002B\\VS_2022\\OrderCoffeeApp\\OrderCoffeeApp\\Views\\CartPage.xaml",
+              "RelativeDocumentMoniker": "OrderCoffeeApp\\Views\\CartPage.xaml",
+              "ToolTip": "D:\\DevC_C\u002B\u002B\\VS_2022\\OrderCoffeeApp\\OrderCoffeeApp\\Views\\CartPage.xaml",
+              "RelativeToolTip": "OrderCoffeeApp\\Views\\CartPage.xaml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADYAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-09T16:22:58.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuPage.xaml",
+              "DocumentMoniker": "D:\\DevC_C\u002B\u002B\\VS_2022\\OrderCoffeeApp\\OrderCoffeeApp\\Views\\MenuPage.xaml",
+              "RelativeDocumentMoniker": "OrderCoffeeApp\\Views\\MenuPage.xaml",
+              "ToolTip": "D:\\DevC_C\u002B\u002B\\VS_2022\\OrderCoffeeApp\\OrderCoffeeApp\\Views\\MenuPage.xaml",
+              "RelativeToolTip": "OrderCoffeeApp\\Views\\MenuPage.xaml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-09T16:22:32.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuPage.xaml.cs",
+              "DocumentMoniker": "D:\\DevC_C\u002B\u002B\\VS_2022\\OrderCoffeeApp\\OrderCoffeeApp\\Views\\MenuPage.xaml.cs",
+              "RelativeDocumentMoniker": "OrderCoffeeApp\\Views\\MenuPage.xaml.cs",
+              "ToolTip": "D:\\DevC_C\u002B\u002B\\VS_2022\\OrderCoffeeApp\\OrderCoffeeApp\\Views\\MenuPage.xaml.cs",
+              "RelativeToolTip": "OrderCoffeeApp\\Views\\MenuPage.xaml.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAmwOIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T16:39:45.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\DevC_C\u002B\u002B\\VS_2022\\OrderCoffeeApp\\OrderCoffeeApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "OrderCoffeeApp\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\DevC_C\u002B\u002B\\VS_2022\\OrderCoffeeApp\\OrderCoffeeApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "OrderCoffeeApp\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T16:09:24.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DrinkItem.cs",
+              "DocumentMoniker": "D:\\DevC_C\u002B\u002B\\VS_2022\\OrderCoffeeApp\\OrderCoffeeApp\\DrinkItem.cs",
+              "RelativeDocumentMoniker": "OrderCoffeeApp\\DrinkItem.cs",
+              "ToolTip": "D:\\DevC_C\u002B\u002B\\VS_2022\\OrderCoffeeApp\\OrderCoffeeApp\\DrinkItem.cs",
+              "RelativeToolTip": "OrderCoffeeApp\\DrinkItem.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwCUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T16:49:55.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\DevC_C\u002B\u002B\\VS_2022\\OrderCoffeeApp\\OrderCoffeeApp\\App.xaml",
+              "RelativeDocumentMoniker": "OrderCoffeeApp\\App.xaml",
+              "ToolTip": "D:\\DevC_C\u002B\u002B\\VS_2022\\OrderCoffeeApp\\OrderCoffeeApp\\App.xaml",
+              "RelativeToolTip": "OrderCoffeeApp\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-09T16:05:46.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StringToVisibilityConverter.cs",
+              "DocumentMoniker": "D:\\DevC_C\u002B\u002B\\VS_2022\\OrderCoffeeApp\\OrderCoffeeApp\\StringToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "OrderCoffeeApp\\StringToVisibilityConverter.cs",
+              "ToolTip": "D:\\DevC_C\u002B\u002B\\VS_2022\\OrderCoffeeApp\\OrderCoffeeApp\\StringToVisibilityConverter.cs",
+              "RelativeToolTip": "OrderCoffeeApp\\StringToVisibilityConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T17:22:26.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\DevC_C\u002B\u002B\\VS_2022\\OrderCoffeeApp\\OrderCoffeeApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "OrderCoffeeApp\\MainWindow.xaml",
+              "ToolTip": "D:\\DevC_C\u002B\u002B\\VS_2022\\OrderCoffeeApp\\OrderCoffeeApp\\MainWindow.xaml",
+              "RelativeToolTip": "OrderCoffeeApp\\MainWindow.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-09T16:05:47.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CartPage.xaml.cs",
+              "DocumentMoniker": "D:\\DevC_C\u002B\u002B\\VS_2022\\OrderCoffeeApp\\OrderCoffeeApp\\Views\\CartPage.xaml.cs",
+              "RelativeDocumentMoniker": "OrderCoffeeApp\\Views\\CartPage.xaml.cs",
+              "ToolTip": "D:\\DevC_C\u002B\u002B\\VS_2022\\OrderCoffeeApp\\OrderCoffeeApp\\Views\\CartPage.xaml.cs",
+              "RelativeToolTip": "OrderCoffeeApp\\Views\\CartPage.xaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T16:39:49.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "D:\\DevC_C\u002B\u002B\\VS_2022\\OrderCoffeeApp\\OrderCoffeeApp\\Views\\HomePage.xaml",
+              "RelativeDocumentMoniker": "OrderCoffeeApp\\Views\\HomePage.xaml",
+              "ToolTip": "D:\\DevC_C\u002B\u002B\\VS_2022\\OrderCoffeeApp\\OrderCoffeeApp\\Views\\HomePage.xaml",
+              "RelativeToolTip": "OrderCoffeeApp\\Views\\HomePage.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-09T16:12:56.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppData.cs",
+              "DocumentMoniker": "D:\\DevC_C\u002B\u002B\\VS_2022\\OrderCoffeeApp\\OrderCoffeeApp\\AppData.cs",
+              "RelativeDocumentMoniker": "OrderCoffeeApp\\AppData.cs",
+              "ToolTip": "D:\\DevC_C\u002B\u002B\\VS_2022\\OrderCoffeeApp\\OrderCoffeeApp\\AppData.cs",
+              "RelativeToolTip": "OrderCoffeeApp\\AppData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T15:17:53.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "D:\\DevC_C\u002B\u002B\\VS_2022\\OrderCoffeeApp\\OrderCoffeeApp\\Views\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "OrderCoffeeApp\\Views\\HomePage.xaml.cs",
+              "ToolTip": "D:\\DevC_C\u002B\u002B\\VS_2022\\OrderCoffeeApp\\OrderCoffeeApp\\Views\\HomePage.xaml.cs",
+              "RelativeToolTip": "OrderCoffeeApp\\Views\\HomePage.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T16:15:02.015Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

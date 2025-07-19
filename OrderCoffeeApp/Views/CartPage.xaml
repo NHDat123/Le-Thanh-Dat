@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="OrderCoffeeApp.Views.CartPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OrderCoffeeApp.Models"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    mc:Ignorable="d">
+
+    <Grid>
+        <ScrollViewer Padding="20">
+            <StackPanel>
+                <TextBlock Text="📦 Danh sách đơn hàng" 
+                       FontSize="24" 
+                       FontWeight="Bold"
+                       Margin="0,0,0,20"
+                       Foreground="Black"/>
+
+                <ItemsControl ItemsSource="{x:Bind AllOrders, Mode=OneWay}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="local:Order">
+                            <Border BorderBrush="Gray" BorderThickness="1" CornerRadius="8" Margin="0,0,0,20" Background="WhiteSmoke" Padding="10">
+                                <StackPanel>
+                                    <TextBlock Text="{Binding FormattedTime}" FontWeight="Bold" Foreground="Black"/>
+
+                                    <ItemsControl ItemsSource="{x:Bind Items}">
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate x:DataType="local:DrinkItem">
+                                                <StackPanel Orientation="Vertical" Margin="0,5">
+                                                    <StackPanel Orientation="Horizontal" Margin="0,5">
+                                                        <TextBlock Text="{Binding Name}" Width="150" Foreground="Black"/>
+                                                        <TextBlock Text="x" Margin="5,0"/>
+                                                        <TextBlock Text="{Binding Quantity}" Width="30" Foreground="Black"/>
+                                                        <TextBlock Text="{Binding Price}" Foreground="Black" Margin="10,0"/>
+                                                    </StackPanel>
+                                                    <TextBlock Text="{Binding Note}"
+                                                               Foreground="DarkSlateGray"
+                                                               FontStyle="Italic"
+                                                               Margin="0,5,0,0"
+                                                               Visibility="{Binding Note, Converter={StaticResource StringToVisibilityConverter}}"/>
+                                                </StackPanel>
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                    </ItemsControl>
+
+                                    <TextBlock Text="{Binding FormattedTotalAmount}" 
+                                               FontWeight="SemiBold"
+                                               Foreground="DarkGreen"
+                                               Margin="0,10,0,0"/>
+                                    <TextBlock Text="{Binding PaymentStatus}"
+                                               Foreground="DarkSlateBlue"
+                                               FontWeight="Bold"
+                                               Margin="0,5,0,0"/>
+                                </StackPanel>
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="OrderCoffeeApp.Views.MenuPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OrderCoffeeApp.Models"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Padding="20" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*"/> <!-- Bên trái: TabView -->
+            <ColumnDefinition Width="2*"/> <!-- Bên phải: Khung đặt hàng -->
+        </Grid.ColumnDefinitions>
+        
+        <!-- Bên trái: TabView các món -->
+        <TabView Grid.Column="0">
+            <!-- Tab 1: Nước uống -->
+            <TabViewItem Header="Nước uống" FontSize="30" FontWeight="ExtraBold">
+                <ListView ItemsSource="{x:Bind Drinks, Mode=OneWay}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate x:DataType="local:DrinkItem">
+                            <Grid Margin="0,0,0,20">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <StackPanel Orientation="Vertical" VerticalAlignment="Center" Grid.Column="0" Margin="0,0,10,0">
+                                    <TextBlock Text="{Binding Name}" FontSize="18" FontWeight="Bold" Foreground="Black"/>
+                                    <TextBlock Text="{Binding Price}" Foreground="Black"/>
+                                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                                        <TextBlock Text="Số lượng:" Foreground="Black"/>
+                                        <NumberBox Value="{Binding Quantity, Mode=TwoWay}" Width="100" Margin="5,0,0,0" ValueChanged="NumberBox_ValueChanged"/>
+                                    </StackPanel>
+                                    <Button Content="Thêm vào giỏ" Foreground="Black" Click="AddToCart_Click" Tag="{Binding}" Margin="0,5,0,0"/>
+                                </StackPanel>
+                                <Image Source="{Binding Image}" Width="120" Height="120" VerticalAlignment="Center" Grid.Column="1"/>
+                            </Grid>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </TabViewItem>
+
+            <!-- Tab 2: Ăn vặt -->
+            <TabViewItem Header="Ăn vặt">
+                <ListView ItemsSource="{x:Bind Snacks, Mode=OneWay}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate x:DataType="local:DrinkItem">
+                            <Grid Margin="0,0,0,20">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <StackPanel Orientation="Vertical" VerticalAlignment="Center" Grid.Column="0" Margin="0,0,10,0">
+                                    <TextBlock Text="{Binding Name}" FontSize="18" FontWeight="Bold" Foreground="Black"/>
+                                    <TextBlock Text="{Binding Price}" Foreground="Black"/>
+                                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                                        <TextBlock Text="Số lượng:" Foreground="Black"/>
+                                        <NumberBox Value="{Binding Quantity, Mode=TwoWay}" Width="80" Margin="5,0,0,0" ValueChanged="NumberBox_ValueChanged"/>
+                                    </StackPanel>
+                                    <Button Content="Thêm vào giỏ" Foreground="Black" Click="AddToCart_Click" Tag="{Binding}" Margin="0,5,0,0"/>
+                                </StackPanel>
+                                <Image Source="{Binding Image}" Width="120" Height="120" VerticalAlignment="Center" Grid.Column="1"/>
+                            </Grid>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </TabViewItem>
+        </TabView>
+        
+        <!-- Bên phải: Khung đặt hàng -->
+        <Border Grid.Column="1" Background="WhiteSmoke" BorderBrush="LightGray" BorderThickness="1" CornerRadius="8" Padding="10" Margin="10,0,0,0">
+            <StackPanel>
+                <TextBlock Text="🛒 Đơn đặt hàng" 
+                       FontSize="24" 
+                       FontWeight="Bold"
+                       Foreground="Black"
+                       Margin="0,0,0,10"/>
+
+                <!-- Danh sách các món đã thêm -->
+                <ItemsControl ItemsSource="{Binding CartItems, Mode=OneWay}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="local:DrinkItem">
+                            <StackPanel Orientation="Vertical" Margin="0,5">
+                                <!-- Thông tin món -->
+                                <StackPanel Orientation="Horizontal" Margin="0,5">
+                                    <TextBlock Text="{Binding Name}" Width="100" Foreground="Black"/>
+                                    <TextBlock Text="x" Margin="5,0"/>
+                                    <TextBlock Text="{Binding Quantity}" Width="30" Foreground="Black"/>
+                                    <TextBlock Text="{Binding Price}" Foreground="Black" Margin="10,0"/>
+                                    <Button x:Name="CancelOrder" Content="Hủy" Background="Gainsboro" Foreground="Black" Margin="20,0" Click="CancelOrder_Click" Tag="{Binding}"/>
+                                </StackPanel>
+                                <!-- Ghi chú từng món -->
+                                <TextBox Text="{Binding Note, Mode=TwoWay}" PlaceholderText="Ghi chú" Margin="0,5,0,10" BorderBrush="Gray" BorderThickness="1" Padding="4" FontSize="14" Foreground="Black"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+
+                <Button x:Name="ConfirmOrder"
+                        Content="Xác nhận và Thanh toán"
+                        Style="{StaticResource NoColorChangeButtonStyle}"
+                        Height="40"
+                        Width="200"
+                        HorizontalAlignment="Right" 
+                        Margin="0,20,0,0"
+                        Click="ConfirmOrder_Click"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Page>

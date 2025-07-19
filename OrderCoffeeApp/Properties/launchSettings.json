@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "OrderCoffeeApp (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "OrderCoffeeApp (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
