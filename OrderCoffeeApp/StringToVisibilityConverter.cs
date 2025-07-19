@@ -12,8 +12,18 @@ namespace OrderCoffeeApp.Converters
     {
         public object Convert(object value, Type targetType, object parameter, string language)
         {
-            string str = value as string;
-            return string.IsNullOrWhiteSpace(str) ? Visibility.Collapsed : Visibility.Visible;
+            try
+            {
+                string str = value as string;
+                return string.IsNullOrWhiteSpace(str) ? Visibility.Collapsed : Visibility.Visible;
+            }
+            catch (Exception ex)
+            {
+                // Ghi log lỗi (nếu cần)
+                System.Diagnostics.Debug.WriteLine($"Error in StringToVisibilityConverter: {ex.Message}");
+                // Trả về giá trị mặc định
+                return Visibility.Collapsed;
+            }
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, string language)
